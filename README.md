@@ -6,7 +6,10 @@ This lab was meant to teach us how to construct classes and objects in Java. We 
 
 ## Running the Program
 
-
+This code was written in Java 1.7. 
+\
+\
+In order to run, download the code and import it into a compiler (capable of compiling Java 1.7), compile it, and run it.
 
 # DiceLab.java
 
