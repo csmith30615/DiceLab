@@ -13,13 +13,13 @@ In order to run, download the code and import it into a compiler (capable of com
 
 # DiceLab.java
 
-## `public class DiceLab`
+### `public class DiceLab`
 
 File meant to test whether the Die class is working properly or not. Creates a set of 5 Die of random sizes (4, 6, 8, 10, 12, 20, or 200), rolls them, and prints each Die's value
 
-# Main
+## Main
 
-## `public static void main(String[] args)`
+### `public static void main(String[] args)`
 
  * **Parameters:** `args` — the command line arguments
  
@@ -27,41 +27,41 @@ File meant to test whether the Die class is working properly or not. Creates a s
  
 # Die.java
 
-## `public class Die`
+### `public class Die`
 
 Creates a Die object with a specified number of faces
 
-# Constructor
+## Constructor
 
-## `public Die(int faces)`
+### `public Die(int faces)`
 
 Die constructor with given number of faces
 
  * **Parameters:** `faces` — int amount of faces
  
- # Methods
+ ## Methods
 
-## `public int roll()`
+### `public int roll()`
 
 Roll to randomize the int faceValue of the Die
 
  * **Returns:** int faceValue of the die
 
-# Getters
+## Getters
 
-## `public int getFaceValue()`
+### `public int getFaceValue()`
 
 Gets the int faceValue of the Die
 
  * **Returns:** int faceValue of Die
 
-## `public int getNumFaces()`
+### `public int getNumFaces()`
 
 Gets the int faces of the Die
 
  * **Returns:** int faces, amount of faces on the die
 
-## `@Override public String toString()`
+### `@Override public String toString()`
 
 Returns the string format of the Die's int faces and int faceValue
 
